@@ -2,8 +2,8 @@
 require('core/init.php');
 $response = array();
 
-if(isset($_POST['rollno']) && isset($_POST['gcmid']) && isset($_POST['ad_id']) && isset($_POST['action_id'])){
-	$roll_no = $_POST['rollno'];
+if(isset($_POST['username']) && isset($_POST['gcmid']) && isset($_POST['ad_id']) && isset($_POST['action_id'])){
+	$roll_no = $_POST['username'];
 	$Gcm_id = $_POST['gcmid'];
 	$Ad_id = $_POST['adid'];
 	$actionid = $_POST['actionid'];
